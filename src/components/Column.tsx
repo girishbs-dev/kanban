@@ -5,10 +5,10 @@ import Task from "./Task";
 interface TaskType {
   title: string;
   description?: string;
-  status: string;
+  status: "todo" | "inprogress" | "done";
 }
 
-interface ColumnProps {
+export interface ColumnProps {
   title: string;
   tasks: TaskType[];
 }

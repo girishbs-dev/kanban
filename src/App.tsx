@@ -2,7 +2,7 @@ import './App.css';
 import Board from './components/Board';
 import Form from './components/Form';
 
-const App: React.FC = () => {
+const App = () => {
     return (
         <>
        <div className="board-header">

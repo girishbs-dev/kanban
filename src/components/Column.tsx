@@ -13,7 +13,7 @@ export interface ColumnProps {
   tasks: TaskType[];
 }
 
-const Column: React.FC<ColumnProps> = ({ title, tasks }) => {
+const Column = ({ title, tasks }) => {
   return (
     <div className="kanban-column">
       <div className="column-header">

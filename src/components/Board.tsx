@@ -26,7 +26,7 @@ const boardData:ColumnProps[] = [
   },
 ];
 
-const Board: React.FC = () => {
+const Board = () => {
   return (
       <div className="kanban-board">
         {boardData.map((column, idx) => (

@@ -5,7 +5,7 @@ interface TaskFormProps {
   onCreate: (task: { title: string; description: string; status: string }) => void;
 }
 
-const Form: React.FC<TaskFormProps> = ({ onCreate }) => {
+const Form = ({ onCreate }) => {
   const [title, setTitle] = useState("");
   const [description, setDescription] = useState("");
   const [status, setStatus] = useState("todo");

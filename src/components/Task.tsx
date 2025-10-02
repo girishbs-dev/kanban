@@ -8,7 +8,7 @@ interface TaskProps {
   onClick?: () => void;
 }
 
-const Task: React.FC<TaskProps> = ({ title, description, status, onClick }) => {
+const Task = ({ title, description, status, onClick }) => {
     const statusMapping = {
     "todo": "To Do",
     "inprogress": "In Progress",

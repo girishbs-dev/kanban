@@ -1,4 +1,3 @@
-import React from "react";
 import "../assets/column.css";
 import Task from "./Task";
 
@@ -13,7 +12,7 @@ export interface ColumnProps {
   tasks: TaskType[];
 }
 
-const Column = ({ title, tasks }) => {
+const Column = ({ title, tasks }:ColumnProps) => {
   return (
     <div className="kanban-column">
       <div className="column-header">

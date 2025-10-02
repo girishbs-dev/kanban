@@ -15,6 +15,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.33.0",
+    "@eslint-plugin-react":"latest",
     "@types/react": "^19.1.10",
     "@types/react-dom": "^19.1.7",
     "@tsconfig/recommended": "^1.0.10",

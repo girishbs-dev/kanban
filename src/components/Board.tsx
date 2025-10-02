@@ -1,4 +1,3 @@
-import React from "react";
 import "../assets/board.css";
 import Column from "./Column";
 import type { ColumnProps } from "./Column";

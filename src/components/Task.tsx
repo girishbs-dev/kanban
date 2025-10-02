@@ -1,4 +1,3 @@
-import React from "react";
 import "../assets/task.css";
 
 interface TaskProps {
@@ -8,7 +7,7 @@ interface TaskProps {
   onClick?: () => void;
 }
 
-const Task = ({ title, description, status, onClick }) => {
+const Task = ({ title, description, status, onClick }:TaskProps) => {
     const statusMapping = {
     "todo": "To Do",
     "inprogress": "In Progress",

@@ -1,1 +1,1 @@
-{"root":["./src/app.tsx","./src/index.tsx","./src/main.tsx","./src/components/board.tsx","./src/components/column.tsx","./src/components/form.tsx","./src/components/task.tsx","./src/types/index.ts"],"version":"5.8.3"}
+{"root":["./src/app.tsx","./src/index.tsx","./src/components/board.tsx","./src/components/column.tsx","./src/components/form.tsx","./src/components/task.tsx","./src/types/index.ts"],"version":"5.8.3"}
